@@ -1,0 +1,107 @@
+html, body, h1, h2, h3, h4, h5, p, div {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-image: url("./Pictures/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+}
+
+.MarginTitle{
+    margin-top: 3rem;
+}
+
+.MarginOptions {
+    margin-top: 2rem;
+}
+
+.TitleBG {
+    background-color: rgba(199, 195, 195, 0.8);
+    border-radius: 1rem;
+    box-shadow: 7px 5px 5px black;
+}
+
+.Title{
+    font-size: 25;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding: 1rem;
+}
+.Option1 {
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+}
+
+.Option2 {
+    display: flex;
+    justify-content: start;
+}
+
+.CardBG{
+    background-image: url("./Pictures/Flashcard-BG-Side1.png");
+    width: 550px;
+    height: 295px;
+}
+
+.MarginCard {
+    margin-top: 6rem;
+}
+
+.CardText{
+    font-size: 1.75rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.MarginCardText {
+    margin-top: 2.4rem;
+}
+
+.MarginCardOptions{
+    margin-top: 3rem;
+}
+
+.MarginFlipBtn {
+    padding: 0;
+    margin: 1rem 0 1rem 0;
+}
+
+.FlipBtn{
+    position: relative;
+    
+}
+
+.LeftArrowBG {
+    display: flex;
+    justify-content: center;
+}
+
+.RightArrowBG {
+    display: flex;
+    justify-content: center;
+}
+.LeftArrow {
+    width: 75px;
+    height: auto;
+ 
+    cursor: pointer;
+}
+
+.RightArrow {
+    width: 75px;
+    height: auto;
+   
+    cursor: pointer;
+}

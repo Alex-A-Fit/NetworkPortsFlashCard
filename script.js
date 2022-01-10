@@ -80,7 +80,7 @@ function Cards() {
     },
     {
       name: "DNS (  Domain Name System )",
-      port: "TCP 80",
+      port: "UDP 53",
     },
     {
       name: "HTTP ( Hypertext Transfer Protocol )",

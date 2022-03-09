@@ -11,6 +11,7 @@ let deck = [];
 
 InOrder.addEventListener("click", function () {
   deck = Cards();
+  index = 0;
   AssignText()
 });
 
